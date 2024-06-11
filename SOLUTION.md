@@ -4,6 +4,13 @@ I decided to solve each on with different scripting/programming language. I had 
 
 * For each solution/script, current working directory should be where the input CSV files are.
 
+# Contents
+
+* /src - all the solutions' scripts can be found here
+* /results - resulting CSV files (tasks solutions) are in this folder
+
+# Tasks
+
 ### Task 1
 
 * Solution language: Python
