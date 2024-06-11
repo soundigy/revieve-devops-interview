@@ -31,10 +31,7 @@ const csv = require('csv-parse/sync');
       return acc + (productCosts.get(productId) || 0);
     }, 0);
     customerTotals.set(customerId, (customerTotals.get(customerId) || 0) + totalEuros);
-    console.log(`customer: ${customerId}`);
   });
-
-  console.log('x');
 
   // Create an array of customer ranking data
   const customerRanking = Array.from(customerTotals.entries()).map(([customerId, totalEuros]) => {

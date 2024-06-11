@@ -6,22 +6,22 @@ I decided to solve each on with different scripting/programming language. I had 
 
 ### Task 1
 
-Solution language: Python
-How to run:
-    python .\src\task1.py
+* Solution language: Python
+* How to run:
+>python .\src\task1.py
 
 ### Task 2
 
-Solution language: PowerShell Core (>=7.2)
-How to run:
-    pwsh .\src\task2.ps1
+* Solution language: PowerShell Core (>=7.2)
+* How to run:
+>pwsh .\src\task2.ps1
 
 ### Task 3
 
 I decided to approach this one with assistance of some LLM and I gave a chance to Microsoft Copilot. Resulting code had some bugs an required polishing here and there, but eventually I saved some time as at least the overall 'flow' of the solution 
 was there, but hard to say how meaningful the time saving was as I spent some time fixing tricky bugs that AI did...
 
-Solution language: JavaScript
-How to run:
-    npm install csv-parse
-    node .\src\task3.js
+* Solution language: JavaScript
+* How to run:
+>npm install csv-parse  
+>node .\src\task3.js
